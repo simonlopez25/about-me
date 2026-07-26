@@ -10,7 +10,9 @@ import "./index.css";
 export function App() {
   return (
     <div className="portfolio-app">
-      <Navbar />
+      <header>
+        <Navbar />
+      </header>
 
       <main>
         <Hero />

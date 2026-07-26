@@ -1,15 +1,24 @@
 import React from "react";
+import logoType from "../assets/img/logoType.png";
 
 export function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
         <a href="#inicio" className="nav-logo">
-          Simón López
+          <img
+            src={logoType}
+            alt="Logo de Simón López"
+            className="nav-logo-img"
+          />
         </a>
+
         <ul className="nav-links">
           <li>
-            <a href="#habilidades">Habilidades</a>
+            <a href="#inicio">Inicio</a>
+          </li>
+          <li>
+            <a href="#sobre-mi">Sobre mí</a>
           </li>
           <li>
             <a href="#proyectos">Proyectos</a>
